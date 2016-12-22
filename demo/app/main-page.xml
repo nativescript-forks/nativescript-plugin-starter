@@ -1,0 +1,20 @@
+<!--  -->
+
+<Page loaded="onLoaded" unloaded="onUnloaded">
+
+    <Page.actionBar>
+        <ActionBar title="Plugin Starter Playground"></ActionBar>
+    </Page.actionBar>
+
+    <GridLayout rows="*">
+
+        <DockLayout row="0">
+            <StackLayout dock="top">
+                <Button class="button-large" text="Do It" tap="{{ doit }}" />
+            </StackLayout>
+        </DockLayout>
+
+    </GridLayout>
+
+</Page>
+

@@ -1,0 +1,12 @@
+*.js
+*.map
+*.log
+demo/app/*.js
+demo/lib
+demo/platforms
+demo/node_modules
+node_modules
+*.log
+*.keystore
+*.idea
+*.DS_STORE
